@@ -10,7 +10,6 @@
   "scripts": {
     "start": "node server/index.js",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
     "start:watch": "nodemon server/index.js",
     "build:watch": "vue-cli-service build --watch --mode development",
     "dev": "concurrently -n server,client \"npm run start:watch\" \"npm run build:watch\""
