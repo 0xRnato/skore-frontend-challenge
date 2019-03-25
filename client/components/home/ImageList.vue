@@ -1,7 +1,7 @@
 <template>
   <v-container fluid grid-list-sm>
     <v-layout row wrap>
-      <v-flex v-for="imageData in getImageList" :key="imageData.id" xs4>
+      <v-flex v-for="imageData in getImageList" :key="imageData.id" md4 xs12>
         <ImageItem v-bind:imageData="imageData"/>
       </v-flex>
     </v-layout>

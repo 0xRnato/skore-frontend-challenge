@@ -7,7 +7,7 @@
       >
         <v-img height="250px" :src="imageData.image"></v-img>
         <v-card-actions>
-          <v-list-tile>
+          <v-list-tile style="width: 100% !important;">
             <v-list-tile-avatar>
               <v-img :src="imageData.user.image"></v-img>
             </v-list-tile-avatar>
@@ -37,6 +37,6 @@ export default {
 <style scoped>
 .image-likes {
   position: absolute;
-  left: 260px;
+  right: 20px;
 }
 </style>
